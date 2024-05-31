@@ -46,7 +46,7 @@ It was quite difficult to insert a heading in Org mode.
 
 ** 
 
-** ubheading
+** subheading
 
 ** 
    Why is it not indenting?
