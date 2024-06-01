@@ -32,7 +32,6 @@
 (defalias 'asl/buff-file-write 'write-file)
 (defalias 'asl/buff-jump 'spacemacs/alternate-buffer)
 (defalias 'asl/buff-kill-this 'kill-this-buffer)
-(defalias 'asl/buff-list-helm 'helm-buffers-list)
 (defalias 'asl/buff-list-other-window 'ibuffer-other-window)
 (defalias 'asl/buff-next 'next-buffer)
 (defalias 'asl/buff-prior 'previous-buffer)
@@ -57,11 +56,6 @@
 (defalias 'asl/buff-recentf-open-files 'recentf-open-files)
 ;; ;;; </asl_buff-aliases>
 
-;; ;;; <asl_buff-functions>
-(defun asl/buff-file-basename()
-  (progn (helm-basename (buffer-file-name))))
-;; ;;; </asl_buff-functions>
-
 ;; ;;; <asl_buff-keys>
 (define-prefix-command 'asl/buff-)
 (let ((bindings '(
@@ -76,7 +70,6 @@
   (asl/buff-file-write [(f5) (w)])
   (asl/buff-jump [(f5) (j)])
   (asl/buff-kill-this [(f5) (k)])
-  (asl/buff-list-helm [(f5) (l)])
   (asl/buff-list-other-window [(f5) (L)])
   (asl/buff-next [(f5) (right) ])
   (asl/buff-prior [(f5) (left)])

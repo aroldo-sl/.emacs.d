@@ -23,7 +23,6 @@
 
 ;; ;;; <bookmark-aliases>
 (defalias 'asl/bkm-set 'bookmark-set)
-(defalias 'asl/bkm-jump-helm 'helm-filtered-bookmarks)
 (defalias 'asl/bkm-list 'bookmark-bmenu-list)
 (defalias 'asl/bkm-jump 'bookmark-jump)
 ;; ;;; </bookmark-aliases>
@@ -33,7 +32,6 @@
 (global-set-key [(f6)] 'asl/bkm-)
 (let ((bindings '(
                   (asl/bkm-set               [(f6) (13)]) ;; 13=RET
-                  (asl/bkm-jump-helm         [(f6) (f6)])
                   (asl/bkm-jump              [(f6) (f5)])
                   (asl/bkm-jump              [(f6) (j)])
                   (asl/bkm-list              [(f6) (l)])
