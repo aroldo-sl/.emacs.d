@@ -1,25 +1,13 @@
 ;;; asl_buff.el ---
 
-;; Copyright 2020 Aroldo Souza-Leite
+;; Copyright 2024 Aroldo Souza-Leite
 ;;
 ;; Author: asouzaleite@gmx.de
-;; Version: $Id: asl/buff.el,v 0.0 2020-02/26 21:31:28 aroldo Exp $
+;; Version: 
 ;; Keywords: 
 ;; X-URL: not distributed yet
 
-;; This program is free software; you can redistribute it and/or modify
-;; it under the terms of the GNU General Public License as published by
-;; the Free Software Foundation; either version 2, or (at your option)
-;; any later version.
-;;
-;; This program is distributed in the hope that it will be useful,
-;; but WITHOUT ANY WARRANTY; without even the implied warranty of
-;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-;; GNU General Public License for more details.
-;;
-;; You should have received a copy of the GNU General Public License
-;; along with this program; if not, write to the Free Software
-;; Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+;; Utilities for window and buffer management.
 
 ;; ;;; <als_buff-aliases>
 (defalias 'asl/buff-bury 'bury-buffer)
@@ -70,7 +58,7 @@
   (asl/buff-file-write [(f5) (w)])
   (asl/buff-jump [(f5) (j)])
   (asl/buff-kill-this [(f5) (k)])
-  (asl/buff-list-other-window [(f5) (L)])
+  (asl/buff-list-other-window [(f5) (l)])
   (asl/buff-next [(f5) (right) ])
   (asl/buff-prior [(f5) (left)])
   (asl/buff-read-only-mode [(f5) (insertchar)])
