@@ -5,7 +5,7 @@
 
 ;; Author: Aroldo Souza-Leite <asouzaleige@gmx.de>
 ;; Keywords: dotspacemacs user-config
-(require 'cl)
+(require 'cl-lib)
 (require 'xclip)
 (defun -gnome-terminal-keys()
 ;; This is one of the crappiest things I've ever 
@@ -93,8 +93,9 @@ This function is called at the very end of Spacemacs startup, after layer
 configuration.
 Put your configuration code here, except for variables that should be set
 before packages are loaded."
-
+  
   ;;;
+  (setq custom-file (concat user-emacs-directory "custom-file.el"))
   (setq user-cache-directory (concat user-emacs-directory ".cache/"))
   
   ;;; <auto-mode-alist>

@@ -341,6 +341,18 @@
 	 (:authors
 	  ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
 	 (:commit . "7980df10e47eef41d4d1c57cfb690ec406381ed3"))])
+ (csv2ledger .
+	     [(1 5 2)
+	      ((emacs
+		(29 1))
+	       (csv-mode
+		(1 24)))
+	      "Convert csv files to ledger entries" tar
+	      ((:url . "https://codeberg.org/joostkremers/csv2ledger")
+	       (:maintainer "Joost Kremers" . "joostkremers@fastmail.fm")
+	       (:authors
+		("Joost Kremers" . "joostkremers@fastmail.fm"))
+	       (:commit . "1d1004507c4973b35f54d3b7207ee0477e067ba3"))])
  (cyberpunk-theme .
 		  [(1 22)
 		   nil "Cyberpunk Color Theme" tar
@@ -1152,31 +1164,29 @@
 		     (:keywords "languages")
 		     (:commit . "59640ceec33cd4df37096289e11ff6f4b876be03"))])
  (helm .
-       [(3 9 8)
+       [(3 9 9)
 	((helm-core
-	  (3 9 8))
+	  (3 9 9))
 	 (wfnames
-	  (1 1))
-	 (popup
-	  (0 5 3)))
+	  (1 2)))
 	"Helm is an Emacs incremental and narrowing framework" tar
 	((:url . "https://emacs-helm.github.io/helm/")
 	 (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	 (:authors
 	  ("Thierry Volpiatto" . "thievol@posteo.net"))
-	 (:commit . "6ae44dba0cb72a3a6950cbe36d104db9c69dfb49"))])
+	 (:commit . "aa51c1a8d6ff4e1e88e61e989f41ac3aa808a592"))])
  (helm-core .
-	    [(3 9 8)
+	    [(3 9 9)
 	     ((emacs
 	       (25 1))
 	      (async
-	       (1 9 7)))
+	       (1 9 8)))
 	     "Development files for Helm" tar
 	     ((:url . "https://emacs-helm.github.io/helm/")
 	      (:maintainer "Thierry Volpiatto" . "thievol@posteo.net")
 	      (:authors
 	       ("Thierry Volpiatto" . "thievol@posteo.net"))
-	      (:commit . "6ae44dba0cb72a3a6950cbe36d104db9c69dfb49"))])
+	      (:commit . "aa51c1a8d6ff4e1e88e61e989f41ac3aa808a592"))])
  (highlight-parentheses .
 			[(2 2 2)
 			 ((emacs
@@ -1460,7 +1470,7 @@
 		   ("Jason R. Blevins" . "jblevins@xbeta.org"))
 		  (:commit . "193b61605f44c85d261b8bd82e0a213fd8f1ff32"))])
  (mastodon .
-	   [(1 0 22)
+	   [(1 0 23)
 	    ((emacs
 	      (27 1))
 	     (request
@@ -1473,7 +1483,7 @@
 	     (:authors
 	      ("Johnson Denen" . "johnson.denen@gmail.com")
 	      ("Marty Hiatt" . "martianhiatus@riseup.net"))
-	     (:commit . "4c3bdb30b8d0238e8b5900a42938d865e7dc407f"))])
+	     (:commit . "ac5684acaa2c0910350a5a79977b28dea8ddf8d7"))])
  (material-theme .
 		 [(2015)
 		  ((emacs
@@ -2489,14 +2499,14 @@
 	     ((:url . "https://github.com/lewang/ws-butler")
 	      (:commit . "323b651dd70ee40a25accc940b8f80c3a3185205"))])
  (xah-fly-keys .
-	       [(25 6 20240523134425)
+	       [(25 7 20240602075123)
 		((emacs
 		  (27)))
 		"ergonomic modal keybinding minor mode." tar
 		((:url . "http://xahlee.info/emacs/misc/xah-fly-keys.html")
 		 (:keywords "convenience" "vi" "vim" "ergoemacs" "keybinding")
 		 (:maintainer "Xah Lee" . "xah@xahlee.org")
-		 (:commit . "470c612021ad5370312feefeed48fdcb30088145"))])
+		 (:commit . "77e49262dccbdf369de814d8e6cf893e98be31e9"))])
  (xkcd .
        [(1 1)
 	((json

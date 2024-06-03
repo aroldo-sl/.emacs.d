@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/.spacemacs.d/" "~/devel/about-org-mode/")
+("~/.emacs.d/" "~/.spacemacs.d/" "~/devel/about-org-mode/" "~/devel/sysadmin/")
