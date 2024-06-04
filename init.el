@@ -3,6 +3,10 @@
 (require 'f)
 (require 'cl-lib)
 
+;; ;;; <user-config>
+;; (load (concat user-emacs-directory "user-config.el"))
+;; ;;; </user-config>
+
 ;; ;;; <layers>
 (let*((layers-dir (f-join user-emacs-directory "layers"))
       (layers '("asl"))

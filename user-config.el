@@ -7,6 +7,8 @@
 ;; Keywords: dotspacemacs user-config
 (require 'cl-lib)
 (require 'xclip)
+(require 'straight)
+(straight-use-package 'xcli p)
 (defun -gnome-terminal-keys()
 ;; This is one of the crappiest things I've ever 
 ;; experienced in the Brave New World of Computers.
