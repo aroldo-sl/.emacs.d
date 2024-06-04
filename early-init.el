@@ -1,3 +1,9 @@
+;; ;;; <early-init>
+(setq package-enabel-at-startup nil)
+(setq custom-file (concat user-emacs-directory "custom.el"))
+;; ;;; </early-inig>
+
+;; ;; <straight>
 (defvar bootstrap-version)
 (let ((bootstrap-file
        (expand-file-name
@@ -14,3 +20,4 @@
       (eval-print-last-sexp)))
   (load bootstrap-file nil 'nomessage))
 (setq package-enable-at-startup nil)
+;; ;;; </straight>
