@@ -1,1 +1,0 @@
-("~/.emacs.d/" "~/.emacs.d/straight.el/" "~/.spacemacs.d/" "~/devel/about-org-mode/" "~/devel/sysadmin/")
