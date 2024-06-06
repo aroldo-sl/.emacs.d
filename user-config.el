@@ -151,6 +151,9 @@ before packages are loaded."
    (lambda()(setq dired-auto-revert-buffer t)))
   (add-hook
    'dired-mode-hook
+   (lambda()(setq dired-dwim-target t)))
+  (add-hook
+   'dired-mode-hook
    (lambda()(dired-hide-details-mode)))
   ;;; </dired>
 
