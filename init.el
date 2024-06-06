@@ -1,3 +1,4 @@
+;;; -*-  lexical-binding: t; buffer-read-only: t; -*-
 ;; ;; should be loaded after 'early-init.el'
 (require 'straight)
 (straight-use-package 'f)

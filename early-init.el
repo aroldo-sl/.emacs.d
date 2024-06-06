@@ -1,3 +1,4 @@
+;;; -*-  lexical-binding: t; buffer-read-only: t; -*-
 ;; ;;; <early-init>
 (setq package-enabel-at-startup nil)
 (setq custom-file (concat user-emacs-directory "custom.el"))
