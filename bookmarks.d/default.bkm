@@ -2,7 +2,13 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-((".emacs.d"
+(("layers"
+ (filename . "~/.emacs.d/layers/")
+ (front-context-string)
+ (rear-context-string . "96 Jun  5 19:43 ")
+ (position . 179)
+ (last-modified 26209 21831 252045 63000))
+(".emacs.d"
  (filename . "~/.emacs.d/")
  (front-context-string . "auto-save-list\n ")
  (rear-context-string . "96 Jun  6 07:31 ")
