@@ -16,6 +16,5 @@
   (cl-loop for package in package-list do (load package))
 )
 
-
-
-;;; packages.el ends here
+;; ;;; packages.el ends here
+(message "End of %s" "layers/asl/packages.el")

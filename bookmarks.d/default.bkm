@@ -2,7 +2,13 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("tmp"
+((".spacemacs.d"
+ (filename . "~/.spacemacs.d/")
+ (front-context-string . "bookmarks\n  -rw-")
+ (rear-context-string . "96 Mai 31 08:04 ")
+ (position . 182)
+ (last-modified 26209 24347 273525 260000))
+("tmp"
  (filename . "~/tmp/")
  (front-context-string)
  (rear-context-string . "Jun  6 08:25 ..\n")
