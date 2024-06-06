@@ -1,10 +1,12 @@
+;; ;; should be loaded after 'early-init.el'
 (require 'straight)
 (straight-use-package 'f)
 (require 'f)
 (require 'cl-lib)
 
 ;; ;;; <user-config>
-;; (load (concat user-emacs-directory "user-config.el"))
+(setq user-config-file (f-join user-emacs-directory "user-config.el"))
+(load user-config-file)
 ;; ;;; </user-config>
 
 ;; ;;; <layers>
@@ -15,3 +17,4 @@
 	   (progn (
 		 load (f-join layers-dir layer  "packages.el")))))
 ;; ;;; </layers>
+

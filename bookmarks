@@ -1,0 +1,11 @@
+;;;; Emacs Bookmark Format Version 1;;;; -*- coding: utf-8-emacs; mode: lisp-data -*-
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+((".emacs.d"
+ (filename . "~/.emacs.d/")
+ (front-context-string . "auto-save-list\n ")
+ (rear-context-string . "96 Jun  6 07:31 ")
+ (position . 175)
+ (last-modified 26209 18894 136884 277000))
+)

@@ -6,9 +6,9 @@
 ;; Author: Aroldo Souza-Leite <asouzaleige@gmx.de>
 ;; Keywords: dotspacemacs user-config
 (require 'cl-lib)
-(require 'xclip)
 (require 'straight)
-(straight-use-package 'xcli p)
+(straight-use-package 'xclip)
+(require 'xclip)
 (defun -gnome-terminal-keys()
 ;; This is one of the crappiest things I've ever 
 ;; experienced in the Brave New World of Computers.
@@ -106,12 +106,12 @@ before packages are loaded."
   (add-to-list 'auto-mode-alist '("\\.description\\'" . text-mode))
   ;;; </auto-mode-alist>
 
-  ;;; <bookmark>
-  (setq bookmark-directory
-        (concat user-emacs-directory "bookmarks/"))
-  (setq bookmark-default-file
-        (concat bookmark-directory "default.bkm"))
-  ;;; </bookmark>
+  ;; ;;; <bookmark>
+  ;; (setq bookmark-directory
+  ;;       (concat user-emacs-directory "bookmarks/"))
+  ;; (setq bookmark-default-file
+  ;;       (concat bookmark-directory "default.bkm"))
+  ;; ;;; </bookmark>
 
   ;;; <recentf>
   (setq recentf-save-file
@@ -131,11 +131,11 @@ before packages are loaded."
   ;; (yas-reload-all)
   ;; ;;; </yasnippet>
 
-  ;;; <projectile>
-  (setq projectile-indexing-method 'native)
-  (projectile-mode)
-  (bind-key (kbd "<f12> p") projectile-command-map)
-  ;;; </projectile>
+  ;; ;;; <projectile>
+  ;; (setq projectile-indexing-method 'native)
+  ;; (projectile-mode)
+  ;; (bind-key (kbd "<f12> p") projectile-command-map)
+  ;; ;;; </projectile>
 
   ;;; <python>
   (add-hook
