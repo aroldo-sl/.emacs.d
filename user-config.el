@@ -107,10 +107,10 @@ before packages are loaded."
   ;;; </auto-mode-alist>
 
   ;; ;;; <bookmark>
-  ;; (setq bookmark-directory
-  ;;       (concat user-emacs-directory "bookmarks/"))
-  ;; (setq bookmark-default-file
-  ;;       (concat bookmark-directory "default.bkm"))
+  (setq bookmark-directory
+        (concat user-emacs-directory "bookmarks.d/"))
+  (setq bookmark-default-file
+        (concat bookmark-directory "default.bkm"))
   ;; ;;; </bookmark>
 
   ;;; <recentf>
@@ -190,3 +190,4 @@ before packages are loaded."
 )
 (-user-config)
 ;;; ;;
+(message "end of %s" "user-config-el")
